@@ -6,7 +6,7 @@ from time import sleep
 df = pd.read_csv('adresy.csv')
 
 # Inicjalizacja klienta Google Maps API
-gmaps = googlemaps.Client(key='AIzaSyDdHPYiN-gRAKUogs9RdzxQ-jY3CFl8vH8')
+gmaps = googlemaps.Client(key='Api key')
 
 # Funkcja do wyciągania współrzędnych
 def get_coordinates(address):
